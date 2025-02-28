@@ -1,0 +1,15 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1, h2, h3, p, ul, ol {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3 {
+    color: brown;
+}
+
+p, ul, ol {
+    color: black;
+}
