@@ -1,15 +1,45 @@
 body {
     background-color: antiquewhite;
-}
-
-h1, h2, h3, p, ul, ol {
+    box-sizing: border-box;
+    width: 900px;
+    margin: auto;
     font-family: 'Courier New', Courier, monospace;
+    color: black;
 }
 
-h1, h2, h3 {
+.heading {
     color: brown;
 }
 
-p, ul, ol {
-    color: black;
+.recipe-links {
+    /* text-align: left; */
+    /* display: inline-block; */
+    width: 700px;
+}
+
+.links-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+    /* display: inline-block; */
+}
+
+a {
+    color: var(#8cb4ff);
+    text-decoration: underline;
+    overflow-wrap: break-word;
+}
+
+.links-list li {
+    padding: 5px;
+    display: inline-block;
+}
+
+li {
+    padding: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
